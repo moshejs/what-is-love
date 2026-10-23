@@ -180,6 +180,9 @@ export default function Sections() {
             <span className="return-line" aria-hidden="true" />
             return
           </button>
+          <p className="coda-credit">
+            Built by <a href="https://www.quentin.software/">Quentin.Code</a>
+          </p>
         </div>
       </Station>
     </>

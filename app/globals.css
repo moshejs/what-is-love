@@ -331,6 +331,21 @@ main {
   margin-top: 2.2rem;
 }
 
+.coda-credit {
+  font-family: var(--font-sans), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--quiet);
+  opacity: 0.5;
+  margin-top: 2.2rem;
+}
+
+.coda-credit a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
 .return-btn {
   display: inline-flex;
   flex-direction: column;
