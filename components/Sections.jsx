@@ -6,6 +6,7 @@
 
 import { Fragment } from 'react'
 import { STATIONS } from '../lib/scrollmap'
+import StudioCredit from './StudioCredit'
 
 const BY_ID = Object.fromEntries(STATIONS.map((s) => [s.id, s]))
 
@@ -181,7 +182,7 @@ export default function Sections() {
             return
           </button>
           <p className="coda-credit">
-            Built by <a href="https://www.quentin.software/">Quentin.Code</a>
+            <StudioCredit />
           </p>
         </div>
       </Station>
