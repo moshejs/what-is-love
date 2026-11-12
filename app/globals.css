@@ -336,8 +336,9 @@ main {
   font-weight: 400;
   font-size: 11px;
   letter-spacing: 0.14em;
-  color: var(--quiet);
-  opacity: 0.5;
+  /* --breath, not --quiet at half opacity: the credit's links need 4.5:1 */
+  color: var(--breath);
+  opacity: 0.8;
   margin-top: 2.2rem;
 }
 
